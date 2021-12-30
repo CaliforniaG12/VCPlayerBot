@@ -19,7 +19,7 @@ from config import Config
 from user import group_call
 import time
 from asyncio import sleep
-from pyrogram.raw.base import Update
+from pyrogram.raw.base import Update as PUpdate
 from pyrogram.raw.functions.channels import GetFullChannel
 from pytgcalls import PyTgCalls
 from pytgcalls.types import Update
